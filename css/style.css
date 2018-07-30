@@ -1,0 +1,96 @@
+/*Global*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FFFACD;
+}
+
+/*Heading*/
+header{
+	background-color: #003893;
+	min-height: 29px;
+	color: #ffffff;
+	padding: 9px 0;
+	font-size: 17px;
+	font-family: 'Comfortaa', cursive;
+	box-shadow: 1px 3px #000000;
+
+}
+
+#header-content span{
+	float: left;
+}
+
+nav{
+	position: absolute;
+	right: 0;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 15px;
+}
+nav a:hover{
+	color: #DC143C;
+}
+
+/*Hero Section*/
+#section-hero figure img{
+	height: 600px;
+	width: 100%;
+	opacity: 0.9;
+}
+
+#image-content {
+	color: #003893;
+	position: absolute;
+	top: 34%;
+	left: 15%;
+	font-size: xx-large;
+	line-height: 100%;
+}
+
+#image-content h2{
+	font-family: 'Rock Salt', cursive;
+}
+
+#image-content p{
+	font-family: 'Comfortaa', cursive;
+}
+
+#btn{
+	position: absolute;
+	top: 76%;
+	left: 39.5%;
+	padding: 2% 3%;
+	border-radius: 15px;
+	border: 1px #000000 solid;
+	font-family: 'Comfortaa', cursive;
+	font-size: x-large;
+	background-color: #ffffff;
+	z-index: 1;
+	outline: none;
+
+}
+
+#btn:hover{
+	background-color: #DC143C;
+	color: #ffffff;
+	border-color: #003893;
+}
+
+#btn:active{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
